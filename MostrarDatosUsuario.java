@@ -13,7 +13,8 @@ public class MostrarDatosUsuario {
         System.out.print("Introduzca palabra 3: ");
         var dato3 = entrada.nextLine();
 
-        System.out.println(dato1 + " " + dato2 + " " + dato3);
+        System.out.printf("%s %s %s", dato1, dato2, dato3);
+        //System.out.println(dato1 + " " + dato2 + " " + dato3);
 
         entrada.close();
     }
